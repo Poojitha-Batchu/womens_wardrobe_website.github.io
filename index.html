@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Viewport link-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Javascript-->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" 
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+     <!-- Optional theme -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" 
+     integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+     <!-- fevicon link-->
+     <link rel="icon" type="image/x-icon" href="css, images/favicon.ico">
+
+    <title>Womens Wardobe- website</title>
+    <link rel="stylesheet" type="text/css" href="css, images/style.css">
+    <link rel="stylesheet" type="text/css" href="css, images/mediaquery.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header>
+    
+    <div class="navbar">
+        <div class="nav">
+            <div class="logo">
+                <img src="css, images/logo-removebg-preview (1).png" height="70" > 
+                <h4> WOMEN'S WARDROBE</h4>
+            </div>
+            <ul class="links">
+                <li><a href="">Download App <i class="fas fa-mobile-alt"></i></a></li>
+                <li><a href="">Cart <i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="">Login/SignUp <i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </div>
+        <div class="toggle_btn"> <i class="fa-solid fa-bars"></i></div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="">Download App <i class="fas fa-mobile-alt"></i></a></li>
+        <li><a href="">Cart <i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li><a href="">Login/SignUp <i class="fa-solid fa-user"></i></a></li>
+    </div>
+</header>
+
+<script>
+    const toggleBtn = document.querySelector('.navbar .toggle_btn')
+    const toggleBtnIcon = document.querySelector('.navbar .toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+    }
+</script>
+
+     <div class="mid">
+         <div class="mid_content">
+             <h4>New Arrivals</h4><br>
+             <a href="">Shop Now</a>
+         </div>
+         <div class="mid_image">
+             <img src="css, images/image1.webp">
+         </div>
+     </div>
+
+    <div class="products">
+        <a href="">Under 499</a>
+        <a href="">Under 599</a>
+        <a href="">Under 699</a>
+        <a href="">Under 799</a>
+        <a href="">Under 899</a>
+        <a href="">Under 999</a>
+        <a href="">Under 1499</a>    
+    </div>
+
+    <div class="discount">
+        <h2>15% </h2>
+        <h4>Instant Discount on Credit & Debit Cards</h4>
+    </div>
+
+    <div class="women_ethnic">
+        <h3>CATALOGUE LIST</h3>
+        <div class="women_product">
+
+            <div class="product">
+                <div class="product_image">
+                    <img src="css, images/saree.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Sarees<br>₹ 499</h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                    <a href="">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product_image">
+                    <img src="css, images/kurti.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Kurtis<br>₹ 499 </h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                    <a href="">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product_image">
+                    <img src="css, images/top1.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Tops<br>₹ 499</h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                    <a href="">See More</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_image">
+                    <img src="css, images/jumpsuit1.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Jumpsuits<br>₹ 499 </h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                    <a href="">See More</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="women_product">
+            <div class="product">
+                <div class="product_image">
+                    <img src="css, images/jew2.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Jewellery<br>₹ 499</h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                    <a href="">See More</a>
+                </div>
+            </div>
+
+           <div class="product">
+                <div class="product_image">
+                    <img src="css, images/ring4.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Ring<br>₹ 499</h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                   <a href="">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product_image">
+                    <img src="css, images/bangle1.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Bangles<br>₹ 499</h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                    <a href="">See More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product_image">
+                    <img src="css, images/earring3.jpg">
+                </div>
+                <div class="product_content">
+                    <h4>Ear Rings<br>₹ 499</h4>
+                    <div class="wishlist">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="see_more">
+                    <a href="">See More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <h4>OUR HIGHLIGHTS</h4>
+            <div class="highlight_content">
+                <div class="highlight_keys">
+                     <li>10000+ happy customers</li>
+                    <li>Reasonable prices</li>
+                    <li>Worldwide shipping</li>
+                    <li>Free Shipping</li>
+                    <li>Online Payment available</li>
+                    <li>Easy returns and exchange</li>
+                </div>
+                <div class="highlight_img">
+                    <img src="css, images/shopping.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="cilent">
+            <h4>CUSTOMERS REVIEW</h4>
+            <div class="client_container">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                  
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="item_img">
+                                <img src="css, images/img1.jpg"
+                                 alt="...">
+                            </div>
+                            <div class="item_content">
+                               <h3>Neeraja</h3>
+                                <p>Nice stuff....it's not a line kurta but straight one, but lovely fabric, kind of thick cotton, beautiful color.
+                                    Women's Wardrobe keeps good stuff...and appreciate almost everything it offers us ...we,the end users.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                             <div class="item_img">
+                                <img src="css, images/img2.jpg" 
+                                alt="...">
+                            </div>
+                             <div class="item_content">
+                                <h3>Anjali</h3>
+                                <p>loved it material is awesome so soft and comfortable</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                             <div class="item_img">
+                                 <img src="css, images/img3.png">
+                                  alt="...">
+                             </div>
+                             <div class="item_content">
+                                <h3>Saraswati</h3>
+                                <p>Look as beautiful as pic.....soft material....comfortable fit....love the kurta</p>
+                             </div>
+                         </div>
+                    </div>
+                  
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+    crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" 
+    crossorigin="anonymous"></script>
+    </div>
+
+    <div class="team">
+        <h2>OUR TEAM</h2>
+        <div class="team_container">
+            <div class="team_video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/T7Q9jWstLcU" title="YouTube video player"
+                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                 allowfullscreen></iframe>
+            </div>
+            <div class="team_content">
+                <p><b>ONLINE SHOPPING MADE EASY AT WOMEN'S WARDROBE</b><br>
+                    If you would like to experience the best of online shopping for women in India, you are at the right place. 
+                    Women's Warddrobe is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing,
+                    accessories, jewellery, personal care products and more. It is time to redefine your style statement with our
+                    treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. 
+                    You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep. </p>     
+            </div>
+        </div>
+    </div>
+
+    <div class="feed">
+        <h2>WRITE A REVIEW</h2>
+        <div class="feed_form">
+            <form name="google-sheet" method="post">
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="Email ID" placeholder="Email ID"><br>
+                <input type="number" name="Contact Number" placeholder="Contact number"><br>
+                <textarea rows="5" cols="7" name="Review" placeholder="Write your review"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbzcqhWJNkVGiIVRc4k1YKgkX_oWvTW6SOBYyHVzKPWmKtuqTclPeZIUMUDPUZSiMOU/exec'
+        const form = document.forms['google-sheet']
+     
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => alert(
+                    "Thanks for you valuable review!!!"))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+      
+     
+     <footer>
+        <img src="css, images/logo-removebg-preview (1).png"> 
+         <div class="footer_pages">
+             <h3>Pages</h3>
+             <a href="">About Us</a>|
+             <a href="service html.html">Services</a>|
+             <a href="">Contact Us</a>
+         </div>
+         <div class="footer_doc">
+             <h3>Documents</h3>
+             <a href="">Privacy Policy</a>|
+             <a href="">Terms and Conditions</a>|
+             <a href="">Exchange and Refund Policy</a>
+         </div>
+         <div class="footer_contact">
+             <h3>Contact Details</h3>
+             <a href="https://api.WhatsApp.com/send?phone=+919123456780" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+             <a href="tel: +919123456780"><i class="fa-solid fa-phone"></i></a>
+             <a href="mailto: womens.wardrobe@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+             <a href=""></a>
+         </div>
+         <div class="footer_follow">
+             <h3>Follow Us</h3>
+             <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+             <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+             <a href=""><i class="fa-brands fa-telegram"></i></a>
+             <a href=""></a>
+         </div>
+         <hr>
+         <p>Copyright &copy; 2021 Women's Wardrobe. All rights Reserved</p>
+     </footer>
+     
+   
+</body>
+</html>

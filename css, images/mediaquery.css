@@ -1,0 +1,637 @@
+@media ( max-width: 768px){
+    header{
+        height: 60px;
+        margin: 0;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav .logo{
+        margin: 0;
+    }
+    .navbar .nav .logo img{
+        height: 50px;
+    }
+    .navbar .nav .links{
+        margin: auto;
+        width: 50%;
+    }
+    .navbar .nav .links li a{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+   .mid {
+    margin: auto;
+    width: 100%;
+   }
+   .mid .mid_content{
+    width: 100%;
+    margin: auto;
+   }
+   .mid .mid_image{
+    width: 100%;
+    margin: auto;
+   }
+   .products{
+    width: 100%;
+    margin: 0;
+    }
+    .products a{
+    font-size: 15px;
+    margin: 0;
+    padding: 8px;
+    }
+   .discount h4{
+    font-size: 15px;
+   }
+   .women_ethnic{
+    width: 100%;
+   }
+   .women_ethnic h3{
+     font-size: 20px;
+   }
+  
+   .highlight h4{
+        font-size: 20px;
+   }
+   .cilent h4{
+        font-size: 20px;
+   }
+   .team h2{
+        font-size: 20px;
+   }
+   .feed{
+    width: 100%;
+    margin: auto;
+   }
+   .feed h2{
+        font-size: 20px;
+   }
+   .feed .feed_form form input{
+    width: 70%;
+    margin: 3px;
+   }
+   .feed .feed_form form textarea{
+    width: 70%;
+    margin: 3px;
+   }
+   footer{
+    width: 100%;
+    margin:auto;
+   }
+   footer img{
+        height: 50px;
+   }
+}
+
+   @media only screen and ( max-width: 1300px){
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav{
+        width: 100%;
+        margin: 0;
+        }
+    .navbar .nav .logo{
+        width: 55%;
+        margin: 0;
+    }
+    .navbar .nav .links{
+        width: auto;
+    }
+    .navbar .nav .links li a{
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+        .products{
+            width: 100%;
+            margin: auto;
+        }
+        .products a{
+            margin: 0px 5px;
+        }
+        .feed{
+            margin: auto;
+        }
+        .feed .feed_form{
+            width: 90%;
+            margin: auto;
+        }
+        .feed .feed_form form input{
+            width: 50%;
+        }
+        .feed .feed_form form textarea{
+            width:50%;
+        }
+        footer{
+            width: 95%;
+            margin: auto;
+        }
+   }
+
+   @media only screen and ( max-width: 992px){
+    header{
+        height: 60px;
+        margin: 0;
+    }
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav .logo{
+        width: 50%;
+        margin: 0;
+    }
+    .navbar .nav .logo img{
+        height: 50px;
+    }
+    .navbar .nav .links{
+        width:50%;
+        float: right; 
+        margin: auto;  
+     }
+    .navbar .nav .links li a{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+    }
+    .products a{
+        font-size: 15px;
+        margin: auto;
+    }
+    .women_ethnic h3{
+        font-size: 20px
+    }
+    .products{
+        width: 100%;
+        margin: auto;
+    }
+    .products a{
+        margin: 2px;
+        padding: 8px;
+    }
+    .highlight h4{
+        font-size: 20px;
+    }
+    .cilent h4{
+        font-size: 20px;
+    }
+    .team h2{
+        font-size: 20px;
+    }
+    .team .team_container{
+        margin: auto;
+    }
+    .team .team_container .team_content{
+        margin: auto;
+    }
+    .feed{
+        margin: auto;
+    }
+    .feed h2{
+        font-size: 20px;
+    }
+    .feed .feed_form{
+        width: 90%;
+        margin: auto;
+    }
+    .feed .feed_form form input{
+        width: 50%;
+    }
+    .feed .feed_form form textarea{
+        width:50%;
+    }
+    footer{
+        margin-top: 25px;
+    }
+   }
+
+   @media ( max-width: 600px){
+    header{
+        height: 55px;
+        width: 100%;
+        margin: 0;
+    }
+    .navbar{
+        width: 95%;
+        margin: 0;
+    }
+    .navbar .nav{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav .logo{
+        width: 70%;
+        float: left;
+        margin: 0;
+    }
+    .navbar .nav .logo img{
+        height: 40px;
+    }
+    .navbar .nav .logo h4{
+        margin-top: 20px;
+        font-size: 3vw;
+        width: 100%;
+    }
+    .navbar .nav .links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+   }
+   .dropdown_menu{
+        display: block;
+        margin: 0;
+        width: 50%;
+   }
+   .mid {
+    margin: auto;
+    width: 100%;
+   }
+   .mid .mid_content{
+    width: 100%;
+    margin: auto;
+   }
+   .mid .mid_image{
+    width: 100%;
+    margin: auto;
+   }
+   .products a{
+    display: grid;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+    font-size: 25px;
+   }
+   .discount h4{
+    font-size: medium;
+   }
+   .women_ethnic{
+    width: 100%;
+   }
+   .women_ethnic h3{
+    font-size: 20px;
+   }
+   .women_ethnic .women_product{
+    margin: 25px;
+    display: grid;
+   
+   }
+   .women_ethnic .women_product .product{
+    width: 80%;
+    margin: auto;
+   }
+   .women_ethnic .women_product .product_image{
+        height: 350px;
+        width: 100%;
+        margin: auto;
+   }
+   .women_ethnic .women_product .product_image img{
+     height: 100%;
+     width: 100%;
+   }
+   .women_ethnic .women_product .product .product_content .wishlist{
+    margin: 0;
+    width: 100%;
+   }
+   .women_ethnic .women_product .product .product_content {
+    margin: auto;
+   }
+   .women_ethnic .women_product .product .product_content h4{
+    width: 80%;
+   }
+   .highlight{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+   }
+   .highlight h4{
+    font-size: 20px;
+   }
+   .highlight .highlight_content{
+    display: grid;
+    margin: auto;
+   }
+   .highlight .highlight_content .highlight_keys li{
+    font-size: 3vw;
+   }
+   .highlight .highlight_content .highlight_img{
+    width: 70%;
+    margin: auto;
+   }
+   .highlight .highlight_content .highlight_img img{
+    margin: auto;
+   }
+   .cilent{
+    width: 100%;
+    margin: auto;
+   }
+   .cilent h4{
+    font-size: 20px;
+   }
+   .team{
+    margin: auto;
+    width: 100%;
+   }
+   .team h2{
+    font-size: 20px;
+   }
+   .team .team_container{
+    width: 100%;
+     display: grid;
+   }
+   .team .team_container .team_video{
+    margin: auto;
+    width: 100%;
+   }
+   .team .team_container .team_content{
+    width: 100%;
+    margin: auto;
+   }
+   .feed{
+    width: 100%;
+    margin: auto;
+   }
+   .feed h2{
+    font-size: 20px;
+   }
+   .feed .feed_form form input{
+    width: 70%;
+    margin: 3px;
+   }
+   .feed .feed_form form textarea{
+    width: 70%;
+    margin: 3px;
+   }
+   .feed .feed_form  form button{
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 15px;
+   }  
+   footer{
+    width: 100%;
+    margin:auto;
+   }
+   footer img{
+    height: 45px;
+   }
+   }
+   @media( max-width: 480px ){
+    header{
+        height: 55px;
+        width: 100%;
+        margin: 0;
+    }
+    .navbar{
+        width: 95%;
+        margin: 0;
+    }
+    .navbar .nav{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav .logo{
+        width: 70%;
+        float: left;
+        margin: 0;
+    }
+    .navbar .nav .logo img{
+        height: 40px;
+    }
+    .navbar .nav .logo h4{
+        margin-top: 20px;
+        font-size: 3vw;
+        width: 100%;
+    }
+    .navbar .nav .links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+   }
+   .dropdown_menu{
+        display: block;
+        margin: 0;
+        width: 50%;
+   }
+   .mid {
+    margin: auto;
+    width: 100%;
+   }
+   .mid .mid_content{
+    width: 100%;
+    margin: auto;
+   }
+   .mid .mid_image{
+    width: 100%;
+    margin: auto;
+   }
+   .products a{
+    display: grid;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+    font-size: medium;
+   }
+   .discount h4{
+    font-size: medium;
+   }
+   .women_ethnic{
+    width: 100%;
+   }
+   .women_ethnic h3{
+    font-size: 20px;
+   }
+   .women_ethnic .women_product{
+    margin: 25px;
+    display: grid;
+   
+   }
+   .women_ethnic .women_product .product{
+    width: 100%;
+    margin: auto;
+   }
+   .women_ethnic .women_product .product_image{
+        height: 350px;
+        width: 100%;
+        margin: auto;
+   }
+   .women_ethnic .women_product .product_image img{
+     height: 100%;
+     width: 100%;
+   }
+   .women_ethnic .women_product .product .product_content .wishlist{
+    margin: 0;
+    width: 100%;
+   }
+   .women_ethnic .women_product .product .product_content {
+    margin: auto;
+   }
+   .women_ethnic .women_product .product .product_content h4{
+    width: 80%;
+   }
+   .highlight{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+   }
+   .highlight h4{
+    font-size: 20px;
+   }
+   .highlight .highlight_content{
+    display: grid;
+    margin: auto;
+   }
+   .highlight .highlight_content .highlight_keys li{
+    font-size: 3vw;
+   }
+   .highlight .highlight_content .highlight_img{
+    width: 70%;
+    margin: auto;
+   }
+   .highlight .highlight_content .highlight_img img{
+    margin: auto;
+   }
+   .cilent{
+    width: 100%;
+    margin: auto;
+   }
+   .cilent h4{
+    font-size: 20px;
+   }
+   .team{
+    margin: auto;
+    width: 100%;
+   }
+   .team h2{
+    font-size: 20px;
+   }
+   .team .team_container{
+    width: 100%;
+     display: grid;
+   }
+   .team .team_container .team_video{
+    margin: auto;
+    width: 100%;
+   }
+   .team .team_container .team_content{
+    width: 100%;
+    margin: auto;
+   }
+   .feed{
+    width: 100%;
+    margin: auto;
+   }
+   .feed h2{
+    font-size: 20px;
+   }
+   .feed .feed_form form input{
+    width: 70%;
+    margin: 3px;
+   }
+   .feed .feed_form form textarea{
+    width: 70%;
+    margin: 3px;
+   }
+   .feed .feed_form  form button{
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 15px;
+   }  
+   footer{
+    width: 100%;
+    margin:auto;
+   }
+   footer img{
+    height: 40px;
+   }
+   footer p{
+    font-size:10px;
+   }
+}
+@media(max-width: 720px){
+    header{
+        height: 55px;
+        width: 100%;
+        margin: 0;
+    }
+    .navbar{
+        width: 95%;
+        margin: 0;
+    }
+    .navbar .nav{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .nav .logo{
+        width: 70%;
+        float: left;
+        margin: 0;
+    }
+    .navbar .nav .logo img{
+        height: 40px;
+    }
+    .navbar .nav .logo h4{
+        margin-top: 20px;
+        font-size: 3vw;
+        width: 100%;
+    }
+    .navbar .nav .links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+   }
+   .dropdown_menu{
+        display: block;
+        margin: 0;
+        width: 50%;
+   }
+   .products a{
+        font-size: 12px;
+   }
+   footer .footer_pages h3{
+    font-size: 15px
+   }
+   footer .footer_pages a{
+    font-size: 15px;
+   }
+   footer .footer_doc h3{
+    font-size: 15px
+   }
+   footer .footer_doc a{
+    font-size: 15px;
+   }
+   footer .footer_contact h3{
+    font-size: 15px
+   }
+   footer .footer_contact a{
+    font-size: 15px;
+   }
+   footer .footer_follow h3{
+    font-size: 15px
+   }
+   footer .footer_follow a{
+    font-size: 15px;
+   }
+   footer p{
+    font-size: 10px
+   }
+}
+
